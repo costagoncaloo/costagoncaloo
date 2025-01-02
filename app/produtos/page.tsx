@@ -1,6 +1,13 @@
-import React from 'react'
-import Link from 'next/link'
+import React from 'react';
+import Produtos from '../components/Produtos/produtos';
+//esta pagina é onde eu importo os produtos dos components, 
 
-export default function produtos() {
-  return 
-}
+const ProdutosPage = () => {
+  return (
+    <main>
+      <Produtos /> 
+    </main>
+  );
+};
+
+export default ProdutosPage;
